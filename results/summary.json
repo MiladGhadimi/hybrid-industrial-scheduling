@@ -1,0 +1,233 @@
+{
+  "instances": 24,
+  "sizes": [
+    4,
+    5,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "common_scope_instances": [
+    "production_n4_s11",
+    "production_n4_s23",
+    "production_n4_s37",
+    "production_n5_s11",
+    "production_n5_s23",
+    "production_n5_s37",
+    "production_n6_s11",
+    "production_n6_s23",
+    "production_n6_s37"
+  ],
+  "note": "full_scope aggregates each method over the instances it ran on and is NOT a like-for-like comparison across methods. Use common_scope for that.",
+  "full_scope": {
+    "cold_start_permutation_qaoa_p1": {
+      "runs": 9,
+      "mean_gap_percent": 2.7251,
+      "max_gap_percent": 24.1775,
+      "median_runtime_seconds": 0.182779,
+      "optimal_rate": 0.7778,
+      "mean_success_probability": 0.040346,
+      "argmax_mean_gap_percent": 62.0051,
+      "argmax_optimal_rate": 0,
+      "mean_expected_best_of_shots_gap_percent": 4.2218,
+      "mean_probability_optimum_with_shots": 0.651689
+    },
+    "cold_start_permutation_qaoa_p3_cvar0.05": {
+      "runs": 9,
+      "mean_gap_percent": 2.1448,
+      "max_gap_percent": 12.6482,
+      "median_runtime_seconds": 4.667598,
+      "optimal_rate": 0.7778,
+      "mean_success_probability": 0.062869,
+      "argmax_mean_gap_percent": 30.2063,
+      "argmax_optimal_rate": 0.5556,
+      "mean_expected_best_of_shots_gap_percent": 2.3362,
+      "mean_probability_optimum_with_shots": 0.733535
+    },
+    "cpsat": {
+      "runs": 24,
+      "mean_gap_percent": 0.0,
+      "max_gap_percent": 0.0,
+      "median_runtime_seconds": 0.02855,
+      "optimal_rate": 1
+    },
+    "exact_dp": {
+      "runs": 24,
+      "mean_gap_percent": 0.0,
+      "max_gap_percent": 0.0,
+      "median_runtime_seconds": 0.008488,
+      "optimal_rate": 1
+    },
+    "greedy_local_search": {
+      "runs": 24,
+      "mean_gap_percent": 3.6057,
+      "max_gap_percent": 25.2418,
+      "median_runtime_seconds": 0.00163,
+      "optimal_rate": 0.625
+    },
+    "random_sampling": {
+      "runs": 24,
+      "mean_gap_percent": 47.7763,
+      "max_gap_percent": 170.1534,
+      "median_runtime_seconds": 0.001162,
+      "optimal_rate": 0.1667,
+      "mean_expected_best_of_shots_gap_percent": 4.7462,
+      "mean_probability_optimum_with_shots": 0.60535
+    },
+    "warm_start_permutation_qaoa_p0": {
+      "runs": 9,
+      "mean_gap_percent": 4.1077,
+      "max_gap_percent": 25.2418,
+      "median_runtime_seconds": 0.001719,
+      "optimal_rate": 0.7778,
+      "mean_success_probability": 0.544444,
+      "argmax_mean_gap_percent": 4.1077,
+      "argmax_optimal_rate": 0.7778,
+      "mean_expected_best_of_shots_gap_percent": 4.1077,
+      "mean_probability_optimum_with_shots": 0.777778
+    },
+    "warm_start_permutation_qaoa_p1": {
+      "runs": 9,
+      "mean_gap_percent": 4.1077,
+      "max_gap_percent": 25.2418,
+      "median_runtime_seconds": 0.231954,
+      "optimal_rate": 0.7778,
+      "mean_success_probability": 0.552765,
+      "argmax_mean_gap_percent": 4.1077,
+      "argmax_optimal_rate": 0.7778,
+      "mean_expected_best_of_shots_gap_percent": 4.1022,
+      "mean_probability_optimum_with_shots": 0.778246
+    },
+    "warm_start_permutation_qaoa_p1_cvar0.1": {
+      "runs": 9,
+      "mean_gap_percent": 0.0,
+      "max_gap_percent": 0.0,
+      "median_runtime_seconds": 0.121012,
+      "optimal_rate": 1,
+      "mean_success_probability": 0.369236,
+      "argmax_mean_gap_percent": 11.2242,
+      "argmax_optimal_rate": 0.6667,
+      "mean_expected_best_of_shots_gap_percent": 0.2402,
+      "mean_probability_optimum_with_shots": 0.979121
+    },
+    "warm_start_permutation_qaoa_p3_cvar0.05": {
+      "runs": 9,
+      "mean_gap_percent": 0.0,
+      "max_gap_percent": 0.0,
+      "median_runtime_seconds": 2.438361,
+      "optimal_rate": 1,
+      "mean_success_probability": 0.145563,
+      "argmax_mean_gap_percent": 40.0679,
+      "argmax_optimal_rate": 0.3333,
+      "mean_expected_best_of_shots_gap_percent": 0.0045,
+      "mean_probability_optimum_with_shots": 0.999551
+    }
+  },
+  "common_scope": {
+    "cold_start_permutation_qaoa_p1": {
+      "runs": 9,
+      "mean_gap_percent": 2.7251,
+      "max_gap_percent": 24.1775,
+      "median_runtime_seconds": 0.182779,
+      "optimal_rate": 0.7778,
+      "mean_success_probability": 0.040346,
+      "argmax_mean_gap_percent": 62.0051,
+      "argmax_optimal_rate": 0,
+      "mean_expected_best_of_shots_gap_percent": 4.2218,
+      "mean_probability_optimum_with_shots": 0.651689
+    },
+    "cold_start_permutation_qaoa_p3_cvar0.05": {
+      "runs": 9,
+      "mean_gap_percent": 2.1448,
+      "max_gap_percent": 12.6482,
+      "median_runtime_seconds": 4.667598,
+      "optimal_rate": 0.7778,
+      "mean_success_probability": 0.062869,
+      "argmax_mean_gap_percent": 30.2063,
+      "argmax_optimal_rate": 0.5556,
+      "mean_expected_best_of_shots_gap_percent": 2.3362,
+      "mean_probability_optimum_with_shots": 0.733535
+    },
+    "cpsat": {
+      "runs": 9,
+      "mean_gap_percent": 0.0,
+      "max_gap_percent": 0.0,
+      "median_runtime_seconds": 0.006845,
+      "optimal_rate": 1
+    },
+    "exact_dp": {
+      "runs": 9,
+      "mean_gap_percent": 0.0,
+      "max_gap_percent": 0.0,
+      "median_runtime_seconds": 0.000187,
+      "optimal_rate": 1
+    },
+    "greedy_local_search": {
+      "runs": 9,
+      "mean_gap_percent": 4.1077,
+      "max_gap_percent": 25.2418,
+      "median_runtime_seconds": 0.000197,
+      "optimal_rate": 0.7778
+    },
+    "random_sampling": {
+      "runs": 9,
+      "mean_gap_percent": 1.7259,
+      "max_gap_percent": 14.4647,
+      "median_runtime_seconds": 0.001015,
+      "optimal_rate": 0.4444,
+      "mean_expected_best_of_shots_gap_percent": 4.7462,
+      "mean_probability_optimum_with_shots": 0.60535
+    },
+    "warm_start_permutation_qaoa_p0": {
+      "runs": 9,
+      "mean_gap_percent": 4.1077,
+      "max_gap_percent": 25.2418,
+      "median_runtime_seconds": 0.001719,
+      "optimal_rate": 0.7778,
+      "mean_success_probability": 0.544444,
+      "argmax_mean_gap_percent": 4.1077,
+      "argmax_optimal_rate": 0.7778,
+      "mean_expected_best_of_shots_gap_percent": 4.1077,
+      "mean_probability_optimum_with_shots": 0.777778
+    },
+    "warm_start_permutation_qaoa_p1": {
+      "runs": 9,
+      "mean_gap_percent": 4.1077,
+      "max_gap_percent": 25.2418,
+      "median_runtime_seconds": 0.231954,
+      "optimal_rate": 0.7778,
+      "mean_success_probability": 0.552765,
+      "argmax_mean_gap_percent": 4.1077,
+      "argmax_optimal_rate": 0.7778,
+      "mean_expected_best_of_shots_gap_percent": 4.1022,
+      "mean_probability_optimum_with_shots": 0.778246
+    },
+    "warm_start_permutation_qaoa_p1_cvar0.1": {
+      "runs": 9,
+      "mean_gap_percent": 0.0,
+      "max_gap_percent": 0.0,
+      "median_runtime_seconds": 0.121012,
+      "optimal_rate": 1,
+      "mean_success_probability": 0.369236,
+      "argmax_mean_gap_percent": 11.2242,
+      "argmax_optimal_rate": 0.6667,
+      "mean_expected_best_of_shots_gap_percent": 0.2402,
+      "mean_probability_optimum_with_shots": 0.979121
+    },
+    "warm_start_permutation_qaoa_p3_cvar0.05": {
+      "runs": 9,
+      "mean_gap_percent": 0.0,
+      "max_gap_percent": 0.0,
+      "median_runtime_seconds": 2.438361,
+      "optimal_rate": 1,
+      "mean_success_probability": 0.145563,
+      "argmax_mean_gap_percent": 40.0679,
+      "argmax_optimal_rate": 0.3333,
+      "mean_expected_best_of_shots_gap_percent": 0.0045,
+      "mean_probability_optimum_with_shots": 0.999551
+    }
+  }
+}

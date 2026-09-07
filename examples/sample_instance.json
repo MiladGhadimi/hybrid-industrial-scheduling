@@ -1,0 +1,70 @@
+{
+  "name": "production_n6_s11",
+  "jobs": [
+    {
+      "id": "J01",
+      "family": "B",
+      "due_slot": 3,
+      "priority": 1.79,
+      "energy": 2.24
+    },
+    {
+      "id": "J02",
+      "family": "A",
+      "due_slot": 4,
+      "priority": 1.85,
+      "energy": 1.81
+    },
+    {
+      "id": "J03",
+      "family": "A",
+      "due_slot": 2,
+      "priority": 1.11,
+      "energy": 1.67
+    },
+    {
+      "id": "J04",
+      "family": "A",
+      "due_slot": 3,
+      "priority": 2.92,
+      "energy": 1.88
+    },
+    {
+      "id": "J05",
+      "family": "A",
+      "due_slot": 4,
+      "priority": 0.94,
+      "energy": 0.76
+    },
+    {
+      "id": "J06",
+      "family": "A",
+      "due_slot": 3,
+      "priority": 1.52,
+      "energy": 1.76
+    }
+  ],
+  "energy_prices": [
+    0.685,
+    0.992,
+    1.303,
+    1.251,
+    0.965,
+    0.768
+  ],
+  "changeover_costs": {
+    "A": {
+      "A": 0.0,
+      "B": 1.72
+    },
+    "B": {
+      "A": 2.08,
+      "B": 0.0
+    }
+  },
+  "weights": {
+    "lateness": 1.0,
+    "energy": 0.35,
+    "changeover": 0.7
+  }
+}

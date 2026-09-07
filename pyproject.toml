@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hybrid-industrial-scheduling"
+version = "0.2.0"
+description = "Reproducible exact, CP-SAT, heuristic, and permutation-QAOA benchmark for production sequencing"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Milad Ghadimi"}]
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.12",
+  "pandas>=2.0",
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.115", "uvicorn>=0.30"]
+cpsat = ["ortools>=9.10"]
+dev = ["pytest>=8", "ruff>=0.8", "ortools>=9.10"]
+
+[project.scripts]
+hybrid-schedule = "hybrid_scheduler.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+# Pinned explicitly. With no `select`, the active rule set is whatever the
+# installed ruff version defaults to, so CI can turn red on a lint upgrade
+# without a single line of code changing. Extend this list deliberately.
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "C4", "UP", "RUF"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["RUF012"]
+
