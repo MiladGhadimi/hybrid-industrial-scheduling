@@ -280,7 +280,7 @@ Dockerfile              reproducible CLI container
 ## Author
 
 **Milad Ghadimi**  
-Applied AI & Optimization Engineer  
+Applied AI, Optimization, & Quantum Engineer  
 [LinkedIn](https://www.linkedin.com/in/milad-ghadimi/) | [GitHub](https://github.com/MiladGhadimi) | [Google Scholar](https://scholar.google.com/citations?user=QH53hSAAAAAJ&hl=en)
 
 ## License
