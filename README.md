@@ -281,6 +281,7 @@ Dockerfile              reproducible CLI container
 
 **Milad Ghadimi**  
 Optimization, Applied AI & Quantum Computing Engineer 
+
 [LinkedIn](https://www.linkedin.com/in/milad-ghadimi/) | [GitHub](https://github.com/MiladGhadimi) | [Google Scholar](https://scholar.google.com/citations?user=QH53hSAAAAAJ&hl=en)
 
 ## License
